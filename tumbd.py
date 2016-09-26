@@ -55,6 +55,7 @@ if __name__ == "__main__":
     tagged = True if str(raw_input("[+] With Tag? ")).lower() == "y" else False
     if tagged:
         # CURRENTY ONLY ONE TAG AT A MOMENT
+        # MAY SUPPORT MORE IN FUTURE
         tagged = str(raw_input("[+] Enter Tag: ")) # rewrite tagged variable for simplicity
         
     scmd = cmd.split('.')
